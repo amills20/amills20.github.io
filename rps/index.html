@@ -9,7 +9,7 @@
         <h1>Rock | Paper | Scissors</h1>
         <hr/>
 
-        <form action="">
+        <form id="rpsChoice"action="">
             <label for="choice">Choose your move</label>
             <select name="choice" id="choice" required>
                 <option value="rock">Rock</option>
@@ -19,5 +19,21 @@
 
             <input type="submit" value="Submit Choice">
         </form>
+
+        <!-- something like this to get the data from the user and run-->
+        <!--
+        <script>
+            function myFunction() {
+                var x = document.getElementById("rpsChoice");
+                var text = "";
+                var i;
+                for (i = 0; i < x.length ;i++) {
+                    text += x.elements[i].value + "<br>";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+        -->
+
     </body>
 </html>
